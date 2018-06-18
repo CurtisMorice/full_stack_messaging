@@ -1,0 +1,30 @@
+{
+    "name": "full_stack_messaging",
+    "version": "1.0.0",
+    "description": "Messaging Code Challenge",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CurtisMorice/full_stack_messaging.git"
+    },
+    "keywords": [
+        "messaging"
+    ],
+    "author": "Curtis Morice",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CurtisMorice/full_stack_messaging/issues"
+    },
+    "homepage": "https://github.com/CurtisMorice/full_stack_messaging#readme",
+    "dependencies": {
+        "angular": "^1.7.2",
+        "angular-route": "^1.7.2",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "pg": "^7.4.3"
+    }
+}
